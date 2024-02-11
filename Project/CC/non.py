@@ -136,18 +136,6 @@ def save_data():
         return jsonify({'error': str(e)}), 500
     
 
-# @app.route('/saveData', methods=['POST'])
-# def save_data():
-    
-#     date = datetime.datetime.now().strftime("%Y-%m-%d")
-#     data = request.json
-#     name = data.get('name').split(",")[0].split(":")[1]
-#     course = data.get('name').split(",")[1].split(":")[1]
-#     card = data.get('card')
-#     print(name)
-#     print(course)
-
-#     return "ok",200   
 
 
 
